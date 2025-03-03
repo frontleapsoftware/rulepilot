@@ -1,6 +1,7 @@
 {
-  "name": "rulepilot",
-  "version": "1.4.9",
+  "name": "@frontleapsoftware/rulepilot",
+  "version": "1.4.8",
+  "private" : false,
   "description": "Rule parsing engine for JSON rules",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,12 +10,11 @@
     "badges": "jest-badges-readme",
     "test": "jest --testPathPattern=test --color --forceExit",
     "build": "rm -rf dist && tsc",
-    "prettier": "prettier --write .",
-    "publish": "npm run build && npm publish --access public"
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewbrg/rulepilot.git"
+    "url": "https://github.com/frontleapsoftware/rulepilot.git"
   },
   "author": "Andrew Borg <andrew.borg@redacreltd.com>",
   "license": "MIT",
@@ -69,5 +69,5 @@
       "node_modules/(?!variables/.*)"
     ]
   },
-  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4"
+  "packageManager": "pnpm@10.5.2"
 }
